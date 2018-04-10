@@ -140,12 +140,12 @@
 
 > Using fences is easy: Input \`\`\` and press `return`. Add an optional language identifier after \`\`\` and we'll run it through syntax highlighting:  
 
-​	使用围栏很容易：输入'''再回车。添加任意的字符在‘’‘之后，我们就能将它渲染为语法高亮状态。
+​	使用围栏很容易：输入```再回车。添加任意的字符在‘’‘之后，我们就能将它渲染为语法高亮状态。
 
 **注*：
 
-1. 输入‘’‘并没有起作用，Typora并没有进行渲染；然而从下面的代码块中复制的’‘’在回车后却能够渲染；
-2. 作为替代，使用”右键-插入-代码块“，可以建立；
+1. 输入的```为Esc键下方的键，而不是单引号；
+2. 另一种方法，使用”右键-插入-代码块“，可以建立；
 
 ~~~ gfm
 Here's an example:
@@ -427,7 +427,7 @@ And then define the link:
 
 ​	获取更多关于图像的提示可访问 <http://support.typora.io//Images/>
 
-### Emphasis加重
+### Emphasis斜体/加重
 
 > Markdown treats asterisks (`*`) and underscores (`_`) as indicators of emphasis. Text wrapped with one `*` or `_` will be wrapped with an HTML `<em>` tag. E.g:  
 
